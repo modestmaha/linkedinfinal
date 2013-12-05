@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/linkedinfinal/';
+// $config['base_url']	= 'http://localhost/linkedinfinal/';
+$config['base_url']	= 'http://murmuring-retreat-8795.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
