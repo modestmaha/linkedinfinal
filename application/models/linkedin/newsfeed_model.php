@@ -69,7 +69,7 @@ class Newsfeed_model extends CI_Model{
 		if($query->num_rows == 1)
 		{
 			$row = $query->row();
-			$imagepath=$row->profilePic;
+			$imagepath=$row->profilepic;
 			return $imagepath;
 		}
 	}

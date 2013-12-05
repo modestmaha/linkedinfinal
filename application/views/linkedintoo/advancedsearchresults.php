@@ -81,7 +81,7 @@
 					<li class="nav-item activity-tab"><a class="activity-toggle inbox-alert" href="">Inbox</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle notifications-alert" href="">Notifications</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle add-connections-btn" href="">Add Connections</a></li>
-					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>" width="20" height="20" /></a></li>
+					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" width="20" height="20" /></a></li>
 				</ul>
 			</div>
 		</div>
@@ -147,7 +147,7 @@
 							<?php foreach($results as $iter){?>
 							<form action="<?php echo base_url();?>/index.php/linkedin/add_connection/send_connection_request" method="post">
 							<li class="mod result people">
-								<a href=""><img class="entity-img" width="60" height="60" src="<?php echo base_url(); ?>uploads/<?php echo $iter->profilePic.'.jpg' ?>" /></a>
+								<a href=""><img class="entity-img" width="60" height="60" src="<?php echo base_url(); ?>uploads/<?php echo $iter->profilepic.'.jpg' ?>" /></a>
 								<div class="bd">
 									<h3>
 										<a class="title"><?php echo $iter->firstName.' '.$iter->lastName ?></a>

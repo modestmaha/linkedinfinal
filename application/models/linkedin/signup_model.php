@@ -30,7 +30,7 @@ class Signup_model extends CI_Model{
 					'firstname' => $data['firstname'],
 					'lastname' => $data['lastname'],
 					'validated' => true,
-					'profilePic' => $row->profilePic
+					'profilepic' => $row->profilepic
 					);
 			$this->session->set_userdata($sess_data);
 			return true;
@@ -157,7 +157,7 @@ class Signup_model extends CI_Model{
 public function insert_pic()
    {
 	    $pic_data = array(
-	        'profilePic'     => $this->session->userdata('user_id')
+	        'profilepic'     => $this->session->userdata('user_id')
 	    );
 	     
 	    $this->db->where('user_id', $this->session->userdata('user_id'));
@@ -180,7 +180,7 @@ public function insert_pic()
 		if($query->num_rows == 1)
 		{
 			$row = $query->row();
-			$imagepath=$row->profilePic;
+			$imagepath=$row->profilepic;
 			return $imagepath;
 		}
 

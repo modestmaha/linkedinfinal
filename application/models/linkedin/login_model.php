@@ -23,7 +23,7 @@ class Login_model extends CI_Model{
 		if($query->num_rows == 1)
 		{
 			$row = $query->row();
-			$imagepath=$row->profilePic;
+			$imagepath=$row->profilepic;
 			//echo $imagepath;
 			return $imagepath;
 		}
@@ -57,7 +57,7 @@ class Login_model extends CI_Model{
 					'firstName' => $row->firstName,
 					'lastName' => $row->lastName,
 					'validated' => true,
-					'profilePic' => $row->profilePic
+					'profilepic' => $row->profilepic
 					);
 			$this->session->set_userdata($sess_data);
 			return true;
