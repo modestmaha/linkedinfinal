@@ -104,7 +104,7 @@ class Signup extends CI_Controller{
 		$data['password'] = $password;
 		$this->load->helper('security');
 		$data['password'] = do_hash($data['password'], 'md5'); // MD5
-		$data['profilePic'] = $pic_name;
+		$data['profilepic'] = $pic_name;
 
 		if($firstname_error_msg != NULL || $lastname_error_msg != NULL || $email_error_msg !=NULL || $password_error_msg !=NULL)
 		{
