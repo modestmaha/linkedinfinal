@@ -10,7 +10,7 @@ class Signup_model extends CI_Model{
 	public function create_user($data){
 		// Prep the query
 		$this->db->where('email', $data['email']);
-		
+		$data['accounttype'] = '1';
 		// Run the query
 		$query = $this->db->get('users');
 		// Let's check if there are any results
