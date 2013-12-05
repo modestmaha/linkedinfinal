@@ -21,8 +21,8 @@ class Add_connection extends CI_Controller{
 			$data['contact_fname'] = $this->input->post('contact_fname');
 			$data['contact_lname'] = $this->input->post('contact_lname');
 			$data['contact_id'] = $this->input->post('contact_id');
-			$data['firstName'] = $this->session->userdata('firstName');
-			$data['lastName'] = $this->session->userdata('lastName');
+			$data['firstname'] = $this->session->userdata('firstname');
+			$data['lastname'] = $this->session->userdata('lastname');
 			$data['css_url'] = "linkedin/newestadvanced";
 			$this->load->view('linkedintoo/sprint3 step2 - connect', $data);
 		}

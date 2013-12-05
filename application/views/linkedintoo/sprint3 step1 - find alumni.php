@@ -16,7 +16,7 @@
 				<h2 class="logo-container">
 					<a id="in-logo" class="logo" href="#"> LinkedIn </a>
 				</h2>
-				<form id="global-search" class="global-search voltron voltron-vertical-selector" action="<?php echo base_url();?>/index.php/linkedin/search/basic_search">
+				<form id="global-search" class="global-search voltron voltron-vertical-selector" action="<?php echo base_url();?>index.php/linkedin/search/basic_search">
 					<fieldset>
 						<legend>Find People, Jobs, Companies, and More</legend>
 						<div id="control_gen_2" class="search-scope global-nav-styled-dropdown">
@@ -55,7 +55,7 @@
 					</fieldset>
 					<div class="advanced-search-outer">
 						<div class="advanced-search-inner">
-							<a id="advanced-search" class="advanced-search" href="<?php echo base_url();?>/index.php/linkedin/search/">Advanced </a>
+							<a id="advanced-search" class="advanced-search" href="<?php echo base_url();?>index.php/linkedin/search/">Advanced </a>
 						</div>
 					</div>
 				</form>

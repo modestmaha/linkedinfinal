@@ -18,7 +18,7 @@
 				<h2 class="logo-container">
 					<a id="in-logo" class="logo" href="#"> LinkedIn </a>
 				</h2>
-				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>/index.php/linkedin/search/basic_search">
+				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>index.php/linkedin/search/basic_search">
 					<fieldset>
 						<legend>Find People, Jobs, Companies, and More</legend>
 						<div id="control_gen_2" class="search-scope global-nav-styled-dropdown">
@@ -67,7 +67,7 @@
 					<li class="nav-item activity-tab"><a class="activity-toggle inbox-alert" href="">Inbox</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle notifications-alert" href="">Notifications</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle add-connections-btn" href="">Add Connections</a></li>
-					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>" width="20" height="20" /></a></li>
+					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" width="20" height="20" /></a></li>
 				</ul>
 			</div>
 		</div>

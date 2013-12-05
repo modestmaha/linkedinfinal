@@ -73,7 +73,7 @@ class Signup_model extends CI_Model{
 			$insert_array= array(
 			'user_id'=>$this->session->userdata('user_id'),
 			'country'=> $this->security->xss_clean($this->input->post('country')),
-			'postal_Code'=> $this->security->xss_clean($this->input->post('postalcode')),
+			'postal_code'=> $this->security->xss_clean($this->input->post('postalcode')),
 			'current_position'=>$temp,
 			'dob' =>date("Y-m-d"),
 			'language' =>'English',
@@ -173,7 +173,7 @@ public function insert_pic()
 
    public function getUploadedPPic($pp_id=NULL){
 		if($pp_id==NULL){
-			$u_id=$this->session->userdata('userid');
+			$u_id=$this->session->userdata('user_id');
 		}
 		else {
 

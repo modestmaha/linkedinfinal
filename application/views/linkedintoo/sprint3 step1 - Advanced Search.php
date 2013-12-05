@@ -175,13 +175,13 @@
 											<label for="advs-keywords">Keywords</label>
 											<input id="advs-keywords" type="text" name="keywords" />
 										</li>
-										<li class="firstName">
-											<label for="advs-firstName">First Name</label>
-											<input id="advs-firstName" type="text" name="contactFName" />
+										<li class="firstname">
+											<label for="advs-firstname">First Name</label>
+											<input id="advs-firstname" type="text" name="contactFName" />
 										</li>
-										<li class="lastName">
-											<label for="advs-lastName">Last Name</label>
-											<input id="advs-lastName" type="text" name="contactLName" />
+										<li class="lastname">
+											<label for="advs-lastname">Last Name</label>
+											<input id="advs-lastname" type="text" name="contactLName" />
 										</li>
 										<li class="title">
 											<label for="advs-title">Title</label>
@@ -286,7 +286,7 @@
 										<a href=""><img class="entity-img" width="60" height="60" src="images/ghost_person_60x60_v1.png" /></a>
 										<div class="bd">
 											<h3>
-												<a class="title"><?php echo $iter->firstName; ?></a>
+												<a class="title"><?php echo $iter->firstname; ?></a>
 												<span class="badges"><span><abbr class="degree-icon " title=" is your connection">1<sup>st</sup></abbr></span></span>
 											</h3>
 											<p class="description">Assistant Professor at New University</p>
@@ -334,9 +334,9 @@
 										<a href=""><img class="entity-img" width="60" height="60" src="images/ghost_person_60x60_v1.png" /></a>
 										<div class="bd">
 											<h3>
-												<a class="title"><?php echo $iter->firstName; ?> <?php echo $iter->lastName; ?></a>
-												<input type="hidden" name="contact_fname" value="<?php echo $iter->firstName; ?>">
-												<input type="hidden" name="contact_lname" value="<?php echo $iter->lastName; ?>">
+												<a class="title"><?php echo $iter->firstname; ?> <?php echo $iter->lastname; ?></a>
+												<input type="hidden" name="contact_fname" value="<?php echo $iter->firstname; ?>">
+												<input type="hidden" name="contact_lname" value="<?php echo $iter->lastname; ?>">
 												<span class="badges"><span><abbr class="degree-icon " title=" is your connection">1<sup>st</sup></abbr></span></span>
 											</h3>
 											<p class="description">Assistant Professor at New University</p>

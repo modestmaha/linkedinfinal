@@ -61,7 +61,7 @@ class Signup extends CI_Controller{
 	
 	public function validate(){
 		
-		$firstname =  $this->security->xss_clean($this->input->post('firstName'));
+		$firstname =  $this->security->xss_clean($this->input->post('firstname'));
 		if (strlen($firstname)<2)
 			$firstname_error_msg = "The text you provide must have at least 2 characters";
 		else if (!preg_match("/^[A-Z].(['].[A-Z])?[a-z]+.$/", $firstname))
@@ -69,7 +69,7 @@ class Signup extends CI_Controller{
 		else
 			$firstname_error_msg = NULL;
 
-		$lastname =  $this->security->xss_clean($this->input->post('lastName'));
+		$lastname =  $this->security->xss_clean($this->input->post('lastname'));
 		if  (strlen($lastname)<3)
 			$lastname_error_msg = "The text you provide must have at least 3 characters";
 		else if (!preg_match("/^[A-Z].(['].[A-Z])?[a-z]+.$/", $lastname))

@@ -32,7 +32,7 @@
 				<h2 class="logo-container">
 					<a id="in-logo" class="logo" href="#"> LinkedIn </a>
 				</h2>
-				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>/index.php/linkedin/search/basic_search">
+				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>index.php/linkedin/search/basic_search">
 					<fieldset>
 						<legend>Find People, Jobs, Companies, and More</legend>
 						<div id="control_gen_2" class="search-scope global-nav-styled-dropdown">
@@ -81,7 +81,7 @@
 					<li class="nav-item activity-tab"><a class="activity-toggle inbox-alert" href="">Inbox</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle notifications-alert" href="">Notifications</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle add-connections-btn" href="">Add Connections</a></li>
-					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>" width="20" height="20" /></a></li>
+					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" width="20" height="20" /></a></li>
 				</ul>
 			</div>
 		</div>
@@ -146,10 +146,10 @@
 						<ol id="results" class="search-results">
 							<?php foreach($results as $iter){?>
 							<li class="mod result people">
-								<a href=""><img class="entity-img" width="60" height="60" src="<?php echo base_url(); ?>uploads/<?php echo $iter->profilePic.'.jpg' ?>" /></a>
+								<a href=""><img class="entity-img" width="60" height="60" src="<?php echo base_url(); ?>uploads/<?php echo $iter->profilepic.'.jpg' ?>" /></a>
 								<div class="bd">
 									<h3>
-										<a class="title"><?php echo $iter->firstName.' '.$iter->lastName ?></a>
+										<a class="title"><?php echo $iter->firstname.' '.$iter->lastname ?></a>
 										<span class="badges"><span><abbr class="degree-icon " title="John Doe is your connection">1<sup>st</sup></abbr></span></span>
 									</h3>
 									<dl class="demographic">
@@ -174,8 +174,8 @@
 								</div>
 							</li>
 							<input type="hidden" name="contact_id" value="<?php echo $iter->us_id ?>" />
-							<input type="hidden" name="contact_fname" value="<?php echo $iter->firstName ?>" />
-							<input type="hidden" name="contact_lname" value="<?php echo $iter->lastName ?>" />
+							<input type="hidden" name="contact_fname" value="<?php echo $iter->firstname ?>" />
+							<input type="hidden" name="contact_lname" value="<?php echo $iter->lastname ?>" />
 							<?php }?>
 						</ol>
 					</div>

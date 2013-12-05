@@ -18,17 +18,17 @@
 								<input type="hidden" name="isJsEnabled" value="true">
 								<ul id="yui-gen1">
 									<li class="name">
-										<label for="firstName-coldRegistrationForm">First Name:</label>
+										<label for="firstname-coldRegistrationForm">First Name:</label>
 										<div class="fieldgroup">
-											<span class="error" id="firstName-coldRegistrationForm-error"></span>
-											<input type="text" name="firstName" value="" id="firstName-coldRegistrationForm" maxlength="20">
+											<span class="error" id="firstname-coldRegistrationForm-error"></span>
+											<input type="text" name="firstname" value="" id="firstname-coldRegistrationForm" maxlength="20">
 										</div>
 									</li>
 									<li class="name ">
-										<label for="lastName-coldRegistrationForm">Last Name:</label>
+										<label for="lastname-coldRegistrationForm">Last Name:</label>
 										<div class="fieldgroup">
-											<span class="error" id="lastName-coldRegistrationForm-error"></span>
-											<input type="text" name="lastName" value="" id="lastName-coldRegistrationForm" maxlength="40">
+											<span class="error" id="lastname-coldRegistrationForm-error"></span>
+											<input type="text" name="lastname" value="" id="lastname-coldRegistrationForm" maxlength="40">
 										</div>
 									</li>
 									<li>

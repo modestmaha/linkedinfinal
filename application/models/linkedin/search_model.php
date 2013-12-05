@@ -22,8 +22,8 @@ class Search_model extends CI_Model{
 
 		if($data['keywords']!='')
 		{	
-			$this->db->like('firstName', $data['keywords']);
-			$this->db->or_like('lastName', $data['keywords']);
+			$this->db->like('firstname', $data['keywords']);
+			$this->db->or_like('lastname', $data['keywords']);
 			$this->db->or_like('job_title', $data['keywords']);
 			$this->db->or_like('company_name', $data['keywords']);
 			$this->db->or_like('institution_name', $data['keywords']);
@@ -53,8 +53,8 @@ class Search_model extends CI_Model{
 
 		if($data['keywords']!='')
 		{	
-			$this->db->like('firstName', $data['keywords']);
-			$this->db->or_like('lastName', $data['keywords']);
+			$this->db->like('firstname', $data['keywords']);
+			$this->db->or_like('lastname', $data['keywords']);
 			$this->db->or_like('job_title', $data['keywords']);
 			$this->db->or_like('company_name', $data['keywords']);
 			$this->db->or_like('institution_name', $data['keywords']);
@@ -63,11 +63,11 @@ class Search_model extends CI_Model{
 		}
 		if($data['contactFName'] != '')
 		{
-			$this->db->where('firstName', $data['contactFName']);
+			$this->db->where('firstname', $data['contactFName']);
 		}
 		if($data['contactLName'] != '')
 		{
-			$this->db->where('lastName', $data['contactLName']);			
+			$this->db->where('lastname', $data['contactLName']);			
 		}
 		if($data['job_title'] != '')
 		{
@@ -133,8 +133,8 @@ class Search_model extends CI_Model{
 
 		if($data['keywords']!='')
 		{	
-			$this->db->where('firstName', $data['keywords']);
-			$this->db->or_where('lastName', $data['keywords']);
+			$this->db->where('firstname', $data['keywords']);
+			$this->db->or_where('lastname', $data['keywords']);
 			$this->db->or_where('job_title', $data['keywords']);
 			$this->db->or_where('company_name', $data['keywords']);
 			$this->db->or_where('institution_name', $data['keywords']);
@@ -143,11 +143,11 @@ class Search_model extends CI_Model{
 		}
 		if($data['contactFName'] != '')
 		{
-			$this->db->where('firstName', $data['contactFName']);
+			$this->db->where('firstname', $data['contactFName']);
 		}
 		if($data['contactLName'] != '')
 		{
-			$this->db->where('lastName', $data['contactLName']);			
+			$this->db->where('lastname', $data['contactLName']);			
 		}
 		if($data['job_title'] != '')
 		{
@@ -213,8 +213,8 @@ class Search_model extends CI_Model{
 		// Prep the query
 		// if($data['keywords']!='')
 		// {	
-		// 	$this->db->where('firstName', $data['keywords']);
-		// 	$this->db->or_where('lastName', $data['keywords']);
+		// 	$this->db->where('firstname', $data['keywords']);
+		// 	$this->db->or_where('lastname', $data['keywords']);
 		// 	$this->db->or_where('job_title', $data['keywords']);
 		// 	$this->db->or_where('company_name', $data['keywords']);
 		// 	$this->db->or_where('institution_name', $data['keywords']);
@@ -223,11 +223,11 @@ class Search_model extends CI_Model{
 		// }
 		// if($data['contactFName'] != '')
 		// {
-		// 	$this->db->where('firstName', $data['contactFName']);
+		// 	$this->db->where('firstname', $data['contactFName']);
 		// }
 		// if($data['contactLName'] != '')
 		// {
-		// 	$this->db->where('lastName', $data['contactLName']);			
+		// 	$this->db->where('lastname', $data['contactLName']);			
 		// }
 		// if($data['job_title'] != '')
 		// {
@@ -261,7 +261,7 @@ class Search_model extends CI_Model{
 			{echo $iter->us_id; 
 
 			echo " name ";
-			echo $iter->firstName;
+			echo $iter->firstname;
 			echo ' cid ';
 			echo $iter->company_id;
 			echo ' iid ';

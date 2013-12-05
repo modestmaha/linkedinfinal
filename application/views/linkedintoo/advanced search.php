@@ -32,7 +32,7 @@
 				<h2 class="logo-container">
 					<a id="in-logo" class="logo" href="#"> LinkedIn </a>
 				</h2>
-				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>/index.php/linkedin/search/basic_search">
+				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>index.php/linkedin/search/basic_search">
 					<fieldset>
 						<legend>Find People, Jobs, Companies, and More</legend>
 						<div id="control_gen_2" class="search-scope global-nav-styled-dropdown">
@@ -153,7 +153,7 @@
 							<button class="text-button close-advs show_hide">Close</button>
 						</div>
 						<div id="advs-form-container">
-							<form id="peopleSearchForm" name="peopleSearchForm" method="post" action="<?php echo base_url();?>/index.php/linkedin/search/search_users">
+							<form id="peopleSearchForm" name="peopleSearchForm" method="post" action="<?php echo base_url();?>index.php/linkedin/search/search_users">
 								<fieldset class="text-input-fields">
 									<ol>
 										<li class="keywords">

@@ -18,7 +18,7 @@
 				<h2 class="logo-container">
 					<a id="in-logo" class="logo" href="#"> LinkedIn </a>
 				</h2>
-				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>/index.php/linkedin/search/basic_search">
+				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>index.php/linkedin/search/basic_search">
 					<fieldset>
 						<legend>Find People, Jobs, Companies, and More</legend>
 						<div id="control_gen_2" class="search-scope global-nav-styled-dropdown">
@@ -67,7 +67,7 @@
 					<li class="nav-item activity-tab"><a class="activity-toggle inbox-alert" href="">Inbox</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle notifications-alert" href="">Notifications</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle add-connections-btn" href="">Add Connections</a></li>
-					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>" width="20" height="20" /></a></li>
+					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" width="20" height="20" /></a></li>
 				</ul>
 			</div>
 		</div>
@@ -116,7 +116,7 @@
     
  <div id="slick-sharing-cont" class="post-home is-view share-box rt-filter-cont">
  <a href="/profile/edit?goback=%2Enmp_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1&amp;trk=spm_pic" title="View your profile">
- <img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>" class="member-photo animated-member-photo" width="60" height="60" alt="aw haw">
+ <img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" class="member-photo animated-member-photo" width="60" height="60" alt="aw haw">
  </a>
  <div id="post-module" class="post-module">
  <div class="post-module-in">
@@ -248,7 +248,7 @@ LI.i18n.register( 'slideshare-uploader-promo-cta', 'Add a file' );
 
 
  
- <form id="share-form" class="doc-sharing-form post" enctype="multipart/form-data" method="POST" action="<?php echo base_url()?>/index.php/linkedin/newsfeed/share_post">
+ <form id="share-form" class="doc-sharing-form post" enctype="multipart/form-data" method="POST" action="<?php echo base_url()?>index.php/linkedin/newsfeed/share_post">
 <div id="post-module-neu" class="enable-slideshare mentions-enabled transition active active_message">
 <div id="share-entity-mentions-container" class="mentions-container">
 
@@ -596,12 +596,12 @@ LI.MentionsDataSourceDependencies = {
      <?php if($posts != NULL)
 			{ foreach ($posts as $iter): ?>
      <li class="feed-item linkedin-post">
-					 <img class="feed-photo photo" width="60" height="60" alt="Maha Kamal" src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>">
+					 <img class="feed-photo photo" width="60" height="60" alt="Maha Kamal" src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>">
 
 					<div class="feed-body">
 					  <div class="feed-content">
 					<div class="annotated-body">
-					        <span class="new-miniprofile-container /profile/mini-profile-with-connections?_ed=0_0yykgZAGbAs3vR3nTUGTusa4PbwAVxJahdpSDfajxri" data-li-url="/profile/mini-profile-with-connections?_ed=0_0yykgZAGbAs3vR3nTUGTusa4PbwAVxJahdpSDfajxri" data-li-tl="tl/shared/profile/mini_profile_shell" data-li-miniprofile-id="LI-3790177"><strong><a href="http://www.linkedin.com/nhome/nus-redirect?url=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%2Fview%3Fid%3D271611222%26snapshotID%3D%26authType%3Dname%26authToken%3DFWOO%26ref%3DNUS%26goback%3D%252Enmp_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1%26trk%3DNUS-body-member-name&amp;urlhash=MbeE&amp;trkToken=action%3DviewMember%26pageKey%3Dmember-home%26contextId%3DQJBXY9m0PBPQ%2FhPgwyoAAA%3D%3D%26isSponsored%3Dfalse%26distanceFromViewer%3D1%26aggregationType%3Dnone%26isPublic%3Dfalse%26verbType%3Dlinkedin%3Apost%26activityId%3Dactivity%3A5814066974858153984%26isDigested%3Dfalse%26isFolloweeOfPoster%3Dfalse%26actorType%3Dlinkedin%3Amember%26feedPosition%3D1%26actorId%3Dmember%3A271611222%26objectId%3D%26rowPosition%3D1%26objectType%3D"><?php echo $iter->firstName; ?> <?php echo $iter->lastName; ?></a></strong></span>
+					        <span class="new-miniprofile-container /profile/mini-profile-with-connections?_ed=0_0yykgZAGbAs3vR3nTUGTusa4PbwAVxJahdpSDfajxri" data-li-url="/profile/mini-profile-with-connections?_ed=0_0yykgZAGbAs3vR3nTUGTusa4PbwAVxJahdpSDfajxri" data-li-tl="tl/shared/profile/mini_profile_shell" data-li-miniprofile-id="LI-3790177"><strong><a href="http://www.linkedin.com/nhome/nus-redirect?url=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%2Fview%3Fid%3D271611222%26snapshotID%3D%26authType%3Dname%26authToken%3DFWOO%26ref%3DNUS%26goback%3D%252Enmp_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1%26trk%3DNUS-body-member-name&amp;urlhash=MbeE&amp;trkToken=action%3DviewMember%26pageKey%3Dmember-home%26contextId%3DQJBXY9m0PBPQ%2FhPgwyoAAA%3D%3D%26isSponsored%3Dfalse%26distanceFromViewer%3D1%26aggregationType%3Dnone%26isPublic%3Dfalse%26verbType%3Dlinkedin%3Apost%26activityId%3Dactivity%3A5814066974858153984%26isDigested%3Dfalse%26isFolloweeOfPoster%3Dfalse%26actorType%3Dlinkedin%3Amember%26feedPosition%3D1%26actorId%3Dmember%3A271611222%26objectId%3D%26rowPosition%3D1%26objectType%3D"><?php echo $iter->firstname; ?> <?php echo $iter->lastname; ?></a></strong></span>
 					</div>
 					    <span class="share-body">
 					            
@@ -653,7 +653,7 @@ LI.MentionsDataSourceDependencies = {
 					      <span class="thumb">&nbsp;</span>
 					      <p>
 
-					                      <a href="http://www.linkedin.com/nhome/nus-redirect?url=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%2Fview%3Fid%3D208100535%26firstName%3DYou%26lastName%3D%26ref%3DNUS%26trk%3Dliker-prf&amp;urlhash=6BSr&amp;trkToken=action%3DviewLiker%26pageKey%3Dmember-home%26contextId%3DQJBXY9m0PBPQ%2FhPgwyoAAA%3D%3D%26isSponsored%3Dfalse%26distanceFromViewer%3D1%26aggregationType%3Dnone%26isPublic%3Dfalse%26verbType%3Dlinkedin%3Apost%26activityId%3Dactivity%3A5814066974858153984%26isDigested%3Dfalse%26isFolloweeOfPoster%3Dfalse%26actorType%3Dlinkedin%3Amember%26feedPosition%3D1%26actorId%3Dmember%3A271611222%26objectId%3D%26rowPosition%3D1%26objectType%3D">You</a>
+					                      <a href="http://www.linkedin.com/nhome/nus-redirect?url=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%2Fview%3Fid%3D208100535%26firstname%3DYou%26lastname%3D%26ref%3DNUS%26trk%3Dliker-prf&amp;urlhash=6BSr&amp;trkToken=action%3DviewLiker%26pageKey%3Dmember-home%26contextId%3DQJBXY9m0PBPQ%2FhPgwyoAAA%3D%3D%26isSponsored%3Dfalse%26distanceFromViewer%3D1%26aggregationType%3Dnone%26isPublic%3Dfalse%26verbType%3Dlinkedin%3Apost%26activityId%3Dactivity%3A5814066974858153984%26isDigested%3Dfalse%26isFolloweeOfPoster%3Dfalse%26actorType%3Dlinkedin%3Amember%26feedPosition%3D1%26actorId%3Dmember%3A271611222%26objectId%3D%26rowPosition%3D1%26objectType%3D">You</a>
 					      </p>
 					    </li>
 
@@ -662,12 +662,12 @@ LI.MentionsDataSourceDependencies = {
 								foreach ($iter->comments as $comm):?>
 							
 					      <li class="comment-item first">
-					      	<div class="bubble"></div><img class="feed-photo photo" width="10" height="10" alt="Maha Kamal" src="<?php echo base_url(); ?>uploads/<?php echo $comm->profilePic.'.jpg' ?>"><p><a id="nus-comment-5814067230303862784" data-li-uscp-action="delete-my-comment" href="http://www.linkedin.com/updates?discuss=&amp;scope=271611222&amp;stype=M&amp;type=S&amp;topic=5814066974858153984&amp;a=RaFZ&amp;id=5814067230266122240&amp;cid=5814067230303862784&amp;deleteComment=" class="delete feed-delete-comment" data-li-topic-type="U" data-li-topic-id="5814066974858153984" data-li-scope-type="M" data-li-scope-id="271611222" data-li-discussion-id="5814067230266122240" data-li-comment-id="5814067230303862784" data-li-urn-id="urn:li:activity:5814066974858153984">Delete</a><a href="http://www.linkedin.com/profile/view?id=208100535" class="commenter"><?php echo $comm->firstName; ?> <?php echo $comm->lastName; ?></a> <q><?php echo $comm->comment_content; ?></q> <span class="nus-timestamp"><?php echo $comm->comment_time; ?></span> </p>
+					      	<div class="bubble"></div><img class="feed-photo photo" width="10" height="10" alt="Maha Kamal" src="<?php echo base_url(); ?>uploads/<?php echo $comm->profilepic.'.jpg' ?>"><p><a id="nus-comment-5814067230303862784" data-li-uscp-action="delete-my-comment" href="http://www.linkedin.com/updates?discuss=&amp;scope=271611222&amp;stype=M&amp;type=S&amp;topic=5814066974858153984&amp;a=RaFZ&amp;id=5814067230266122240&amp;cid=5814067230303862784&amp;deleteComment=" class="delete feed-delete-comment" data-li-topic-type="U" data-li-topic-id="5814066974858153984" data-li-scope-type="M" data-li-scope-id="271611222" data-li-discussion-id="5814067230266122240" data-li-comment-id="5814067230303862784" data-li-urn-id="urn:li:activity:5814066974858153984">Delete</a><a href="http://www.linkedin.com/profile/view?id=208100535" class="commenter"><?php echo $comm->firstname; ?> <?php echo $comm->lastname; ?></a> <q><?php echo $comm->comment_content; ?></q> <span class="nus-timestamp"><?php echo $comm->comment_time; ?></span> </p>
 					      </li>
 					      <?php endforeach; }?>
 					    </ul>
 				          <div class="form mini">
-										<form method="post" action="<?php echo base_url();?>/index.php/linkedin/newsfeed/add_comment">
+										<form method="post" action="<?php echo base_url();?>index.php/linkedin/newsfeed/add_comment">
 											<div class="mentions-container">
 											<input type="hidden" name="post_id" id="post_id" value="<?php echo $iter->post_id ?>" />
 											<textarea class="texta comment-text mentions-input" placeholder="Add a comment…" style="height: 40px;" id="<?php echo $iter->post_id;?>" name="comment_content"></textarea>

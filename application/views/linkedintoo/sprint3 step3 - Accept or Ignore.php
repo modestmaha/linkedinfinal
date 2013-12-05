@@ -32,7 +32,7 @@
 				<h2 class="logo-container">
 					<a id="in-logo" class="logo" href="#"> LinkedIn </a>
 				</h2>
-				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>/index.php/linkedin/search/basic_search">
+				<form id="global-search" class="global-search voltron voltron-vertical-selector" method="post" action="<?php echo base_url();?>index.php/linkedin/search/basic_search">
 					<fieldset>
 						<legend>Find People, Jobs, Companies, and More</legend>
 						<div id="control_gen_2" class="search-scope global-nav-styled-dropdown">
@@ -130,7 +130,7 @@
 								<a href=""><img class="entity-img" width="60" height="60" src="<?php echo base_url(); ?>uploads/<?php echo $iter->profilepic.'.jpg' ?>" /></a>
 								<div class="bd">
 									<h3>
-										<a class="title"><?php echo $iter->firstName.' '.$iter->lastName ?></a>
+										<a class="title"><?php echo $iter->firstname.' '.$iter->lastname ?></a>
 										<span class="badges"><span><abbr class="degree-icon " title="John Doe is your connection">1<sup>st</sup></abbr></span></span>
 									</h3>
 									<dl class="demographic">
@@ -140,12 +140,12 @@
 										
 									</div>
 									<div class="srp-actions blue-button">
-										<form method="post" action="<?php echo base_url();?>/index.php/linkedin/add_connection/accept_request">
+										<form method="post" action="<?php echo base_url();?>index.php/linkedin/add_connection/accept_request">
 				
 											<input type="hidden" name="contact_id" value="<?php echo $iter->user_id ?>" />
 											<input class="submit-advs" type="submit" value="Connect" />
 										</form>
-										<form method="post" action="<?php echo base_url();?>/index.php/linkedin/add_connection/ignore_request">
+										<form method="post" action="<?php echo base_url();?>index.php/linkedin/add_connection/ignore_request">
 											<input type="hidden" name="contact_id" value="<?php echo $iter->user_id ?>" />
 											<input class="submit-advs" type="submit" value="Ignore" />
 										</form>

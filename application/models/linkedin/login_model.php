@@ -54,8 +54,8 @@ class Login_model extends CI_Model{
 				$sess_data = array(
 					'email' => $row->email,
 					'user_id'=> $row->user_id,
-					'firstName' => $row->firstName,
-					'lastName' => $row->lastName,
+					'firstname' => $row->firstname,
+					'lastname' => $row->lastname,
 					'validated' => true,
 					'profilepic' => $row->profilepic
 					);

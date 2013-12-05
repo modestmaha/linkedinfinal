@@ -25,17 +25,17 @@
 											<legend>Join Today</legend>
 											<ul>
 												<li id="fnjoinTodayli">
-													<label for="firstName">First Name:</label>
+													<label for="firstname">First Name:</label>
 													<div class="textTuple">
-														<span class="error" id="firstName-error"><?php echo $firstname_error_msg ?></span>
-														<input id="firstname" name="firstName" type="text" maxlength="15" value="<?php echo $firstname ?>">
+														<span class="error" id="firstname-error"><?php echo $firstname_error_msg ?></span>
+														<input id="firstname" name="firstname" type="text" maxlength="15" value="<?php echo $firstname ?>">
 													</div>
 												</li>
 												<li id="lnjoinTodayli">
-													<label for="lastName">Last Name:</label>
+													<label for="lastname">Last Name:</label>
 													<div class="textTuple">
-														<span class="error"id="lastName-error"><?php echo $lastname_error_msg ?></span>
-														<input id="lastname" name="lastName" type="text" maxlength="30" value="<?php echo $lastname ?>">
+														<span class="error"id="lastname-error"><?php echo $lastname_error_msg ?></span>
+														<input id="lastname" name="lastname" type="text" maxlength="30" value="<?php echo $lastname ?>">
 													</div>
 												</li>
 												<li id="emjoinTodayli">

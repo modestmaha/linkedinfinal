@@ -163,7 +163,7 @@
 										<br />
 										<span id="greeting-iweReconnect-error" class="error"></span>
 										<textarea id="greeting-iweReconnect" class="message" name="greeting" data-base-height="85">I'd like to add you to my professional network on LinkedIn. 
-- <?php echo $firstName?> <?php echo $lastName?>
+- <?php echo $firstname?> <?php echo $lastname?>
 										</textarea>
 									</div>
 								</div>
