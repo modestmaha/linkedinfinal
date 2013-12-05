@@ -16,6 +16,11 @@ class Signup_model extends CI_Model{
 		// Let's check if there are any results
 		if($query->num_rows == 0)
 		{
+			$this->db->select_max('users.user_id', 'us_id');
+			$query = $this->db->get('members');
+			$row = $query->row();
+			$max_users = $row->us_id;
+			$data['user_id'] = $max_users + 1;
 			$this->db->insert('users', $data);
 			$this->db->where('email', $data['email']);
 			$query = $this->db->get('users');
