@@ -90,7 +90,7 @@ class Add_connection extends CI_Controller{
 			$data['results'] = $this->add_connection_model->load_requests();
 			$data['heading'] = "Connection Requests | LinkedIn";
 			$data['css_url'] = "linkedin/newestadvanced";
-			$this->load->view('linkedintoo/sprint3 step3 - accept or ignore', $data);
+			$this->load->view('linkedintoo/accept or ignore', $data);
 		}
 		else
 		{
@@ -144,7 +144,7 @@ class Add_connection extends CI_Controller{
 				$data['results'] = $this->add_connection_model->load_requests();
 				$data['heading'] = "Connection Invitations | LinkedIn";
 				$data['css_url'] = "linkedin/newestadvanced";
-				$this->load->view('linkedintoo/sprint3 step3 - accept or ignore', $data);
+				$this->load->view('linkedintoo/accept or ignore', $data);
 			}
 			}
 		else
