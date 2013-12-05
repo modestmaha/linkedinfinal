@@ -12,7 +12,7 @@
 					
 						<div id="signIn_body">
 						
-							<form action="<?php echo base_url();?>index.php/LinkedIn/login/validate" method="post">
+							<form action="<?php echo base_url();?>index.php/linkedin/login/validate" method="post">
 								<table >
 								<div id="address_body">
 									<tr >
