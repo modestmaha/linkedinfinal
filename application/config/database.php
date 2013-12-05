@@ -65,10 +65,10 @@ $active_record = TRUE;
 // $db['default']['autoinit'] = TRUE;
 // $db['default']['stricton'] = FALSE;
 
-$db['heroku']['hostname'] = 'ec2-54-204-35-114.compute-1.amazonaws.com';
-$db['heroku']['username'] = 'easqliachnsktv';
-$db['heroku']['password'] = 'lUYjLTRQILC-723cT4boAIBPcp';
-$db['heroku']['database'] = 'd2id796roaci4p';
+$db['heroku']['hostname'] = 'ec2-107-21-226-77.compute-1.amazonaws.com';
+$db['heroku']['username'] = 'wgfocbtptxhksl';
+$db['heroku']['password'] = 'pTScSar-bJHaaOHMQFEvidio19';
+$db['heroku']['database'] = 'ddd4ksi22sefuo';
 $db['heroku']['dbdriver'] = 'postgre'; 
 $db['heroku']['dbprefix'] = '';
 $db['heroku']['pconnect'] = TRUE;
