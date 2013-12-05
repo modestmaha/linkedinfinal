@@ -1,0 +1,269 @@
+#header{
+margin-left: auto;
+    margin-right: auto;
+    width: 1360px;
+    position: relative;
+	background-color: #3f3f3f;
+background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: -moz-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: -o-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+}
+#top-header{
+background-color: #3f3f3f;
+background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: -moz-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+background-image: -o-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+
+width:100%;
+height:42px;
+
+
+}
+div,h1, h2, a, ul,span, li 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+}
+
+div {
+    display: block;
+}
+.aa{
+float:right;
+list-style:none;
+width:30%;
+display:inline;
+}
+
+
+.nav-item
+{
+position:relative;
+float: left;
+/* display: inline; */
+line-height: 13px;
+/* padding-right: 3%;
+padding-left:3%; */
+
+}
+
+#middle{
+height:38px;
+margin-left: auto;
+margin-right: auto;
+width: 65%;
+position: relative;
+}
+.nav-link{
+padding-left: 5px;
+    padding-right: 5px;
+    color: #D7D7D7;
+    margin-top:10px;
+    padding-bottom: 0px;
+    font-size:15px;
+    font-family:Arial Narrow;
+    color:Silver;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+	float:left;
+/* color: #D7D7D7;
+padding-top: 10px;
+padding-bottom: 10px;
+font:inherit;
+font-size: 12px;
+font-style:inherit;
+font-family: Arial,sans-serif;
+font-weight:bold; */
+}
+
+a{
+text-decoration:none;
+}
+a:hover   {color:#0571A6;}
+#imageWrapper
+{
+float:left;
+width:20%;
+}
+
+/*........................................................................................*/	
+
+body
+{
+font-family: Arial,sans-serif;
+font-size:12px;
+}
+
+#mainWrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 974px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+	padding:50px 8px;
+}
+
+#main
+{
+
+}
+
+h2
+{
+color: #000;
+font-weight: inherit;
+font-style: inherit;
+font-size: 18px;
+font-family: inherit;
+
+}
+
+#enter_email
+{
+font-size:13px;
+}
+
+#page_title
+{
+	margin: 0 7px 15px 0px;
+	font-weight: bold;
+	line-height: 24px;
+	display: block;
+	font-family: Arial,sans-serif;
+	font-size: 70%;
+	font-style:inherit;
+	line-height: 1.2;
+}
+
+
+#emailId_wrapper
+{
+	margin-bottom:10px;
+	padding:0px 0px 0px 2px;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	line-height: 1.2;
+}
+
+a
+{
+	text-decoration:none;
+	color: #069;
+	font-size: 14px;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+#address
+{
+/* padding: 0px 0px 6px 0px; */
+/* padding-bottom:3px; */
+}
+
+#address_box
+{
+
+width:300px;
+}
+
+#button
+{
+	/* padding: 16px 0px 2.5px 0px; */
+	/* line-height:3.5px; */
+}
+
+#main_button
+{
+	vertical-align: middle;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #73aec9), color-stop(5%, #73aec9), color-stop(5%, #338ab0), color-stop(100%, #0571a6));
+	font-family: Arial,sans-serif;
+	background-color:#0571A6;
+	color:#fff;
+	border-color: #045a8b;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	padding: 3px 10px; 
+	font-weight: inherit;
+	
+}
+
+#main_button:hover
+{
+/* background-color:#045a8b; */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #69a0b6), color-stop(5%, #69a0b6), color-stop(5%, #277696), color-stop(100%, #04608e));
+}
+
+#footer3{
+font-size: 10px;
+line-height: 14px;
+color: #666;
+font-weight: normal;
+padding-top: 6px;
+padding-bottom: 6px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height:44px;
+/* border-top: 1px solid #ccc; */
+bottom:auto;
+top:auto;
+/* float:right; */
+font-family: Arial,sans-serif;
+vertical-align: baseline;
+/* background: #e9e9e9; */
+}
+
+#nav-legal>li{
+border-right: 1px solid #ccc;
+margin-right: 8px;
+padding-right: 8px;
+margin-top: 5px;
+margin-bottom: 5px;
+float: left;
+list-style: none;
+}
+#copyright{
+border-right: 1px solid #ccc;
+margin-right: 8px;
+padding-right: 8px;
+margin-top: 5px;
+margin-bottom: 5px;
+float: left;
+}
+#last{
+border-right: none;
+}
+#darmian{
+width: 974px;
+    height: 23px;    
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+	
+}
+#nav-legal a:hover {
+text-decoration: underline;
+}
+#nav-legal a
+{
+text-decoration:none;
+color: #069;
+}
+

@@ -1,0 +1,113 @@
+body {
+    font-size: 62.5%;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+	background-color: rgb(230, 230, 230);
+}
+.top-menu, .footer-noborder, .wrapper {
+    width: 80.5em;
+    min-width: 805px;
+}
+.mainh1{
+font-size:30px;
+color:#00BFFF;
+}
+.mainh1 strong{
+font-weight:bold;
+}
+.logo-black{
+font-size:40px;
+color:black;
+font-weight:bold;
+}
+.footer-noborder{
+width: 80.5em;
+min-width: 805px;
+    color: rgb(102, 102, 102);
+    clear: both;
+max-width: 95%;
+}
+p#copyright {
+    float: left;
+    border-right: 1px solid rgb(204, 204, 204);
+    padding: 0px 8px 0px 0px;
+    margin-right: 8px;
+}
+.footer-noborder p {
+    font-size: 110%;
+}
+.footer-noborder ul, .footer-noborder li, .footer-noborder p {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+p#terms-of-use {
+    margin-bottom: 8px;
+}
+#body-area{
+background:white;
+padding-left :30px;
+}
+.wrapper{
+padding-left:50px;
+margin-left:100px;
+
+}
+body .wrapper {
+    padding: 15px;
+}
+.progress-container {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+}
+strong {
+    font-weight: bold;
+}
+#motivation {
+    width: 280px;
+    float: right;
+    margin-top: 10px;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+#motivation .profile-features {
+    border: 1px solid rgb(186, 221, 238);
+    padding: 10px;
+}
+#motivation .profile-features h3 {
+    font-weight: bold;
+    font-size: 140%;
+    margin-bottom: 10px;
+    background: url("/scds/common/u/img/icon/icon_lightbulb_10x17.png") no-repeat scroll 0% 0% rgb(255, 255, 255);
+    padding-left: 20px;
+}
+ ul {
+    list-style: none outside none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+#motivation .profile-features li.first {
+    margin-top: 0px;
+}
+#motivation .profile-features li {
+    font-size: 130%;
+    margin-top: 8px;
+    background: url("/scds/common/u/img/sprite/sprite_registration_v2.png") no-repeat scroll 0px -297px rgb(255, 255, 255);
+    padding-left: 15px;
+}

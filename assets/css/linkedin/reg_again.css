@@ -1,0 +1,379 @@
+body 
+{
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    font-size: 62.5%;
+    line-height: 1.2;
+    color: #000;
+
+}
+
+
+div,h1, h2, a, ul,span, li 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+li {
+    display: list-item;
+    list-style:none;
+}
+#copyright {
+    border-right: 1px solid #ccc;
+    margin-right: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+
+
+#body, .primary, .wrapper {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: 58%;
+    border-right: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+
+#nav-primary .wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 805px;
+    position: relative;
+}
+
+#body .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    position: relative;
+    padding: 15px;
+}
+
+.background
+{
+
+    background-color: #e6e6e6;
+}
+
+#logo-linkedin {
+    float: left;
+    margin: 8px 10px 0 4px;
+    position: relative;
+}
+
+#nav-primary ul, #nav-primary li, #nav-primary p, #nav-primary fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+
+
+#nav-primary #nav-primary-auth {
+    line-height: 39px;
+    color: #666;
+    background-color: transparent;
+    float: right;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+#body {
+    background: #fff;
+    padding: 0;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 805px;
+}
+
+
+
+.introduction {
+    padding-bottom: 11px;
+    background: transparent url('bg_arrow.png') no-repeat bottom left  ;
+    margin-bottom: 5px;
+    margin-left: 108px;			
+}
+
+
+
+#main h1 {
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 23px;
+    font-weight: normal;
+    padding: 16px 18px;
+    background: #00679a;
+    background: -moz-linear-gradient(top, #91cce7 0%, #00679a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #91cce7), color-stop(100%, #00679a));
+}
+
+.introduction h1 {
+    font-size: 180%;
+    font-weight: normal;
+    color: #fff;
+    padding: 10px 15px;
+    background: #74b9dc url('/bg_blue.png') repeat-x bottom left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -108px;
+}
+
+
+#main.no-profile #content {
+    width: 58%;
+}
+
+.register-container {
+	padding-top: 10px;
+    width: auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.standard-form li{
+    margin-bottom: 10px;
+}
+
+.standard-form label {
+    width: 97px;
+    margin-right: 0;
+    width: 110px;
+}
+
+.standard-form label, .standard-form li fieldset legend span, .standard-form li fieldset.details fieldset legend {
+    font-size: 13px;
+    color: #333;
+    background-color: transparent;
+    font-weight: bold;
+    display: block;
+    float: left;
+    text-align: right;
+}
+
+.fieldgroup {
+    margin: 0 0 0 110px;
+    padding: 0;
+
+    padding-left: 10px;
+}
+
+.standard-form input {
+    width: 203px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.edit {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    color: #006ea2;
+}	
+.standard-form.sided ul input{
+    border: 1px solid #999;
+    outline: none;
+    padding: 2px 3px;
+    background-color: #fff;
+}
+
+
+.standard-form.sided p {
+    margin-left: 105px;
+    zoom: 1;
+    font-size: 11px;
+    color: #666;
+    margin-top: .25em;
+}
+
+.actions button {
+    width: auto;
+    max-width: 183px;
+    zoom: 1;
+    cursor: pointer;
+}
+
+button {
+    font-family: Arial,sans-serif;
+}
+
+.btn-tertiary {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #afd47b), color-stop(5%, #afd47b), color-stop(5%, #8bc03f), color-stop(100%, #69a219));
+    border-color: #693;
+    color: #fff !important;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.btn-tertiary{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.35;
+    margin: 0;
+    overflow: visible;
+    padding: 3px 10px 2px;
+    text-decoration: none !important;
+    vertical-align: top;
+    width: auto;
+}
+
+#register-custom-nav {
+    clear: both;
+    zoom: 1;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+}
+
+#extra {
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+}
+
+.sign-in-with {
+    text-align: center;
+}
+
+.handwritten {
+    font-family:  Lazy Dog, Arial,sans-serif; 
+    font-weight: normal;
+    color: #333;
+    margin: 1.4em 0 .7em;
+    font-size: 21px;
+    letter-spacing: .02em;
+    line-height: 1.1em;
+    font-style: italic;
+}
+
+.fb_button {
+    background: #29447e url('fb_icon.png') 0 -44px no-repeat;
+    display: inline-block;
+    padding: 0 0 0 1px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.fb_button .fb_button_text {
+    background: #5f78ab url('fb_icon.png');
+    border-top: 1px solid #879ac0;
+    border-bottom: 1px solid #1a356e;
+    color: #fff;
+    display: block;
+    _display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 2px 6px 3px 6px;
+    margin: 1px 1px 0 21px;
+    height: 14px;
+}
+
+#agreement {
+    clear: both;
+    font-size: 110%;
+    border-top: 1px solid #ccc;
+    color: #555;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#footer1 {
+    border: none;
+    padding: 10px 0;
+    color: #666;
+    clear: both;
+    width: 98em;
+    min-width: 980px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#terms-of-use {
+    margin-right: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+
+#footer1 .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    position: relative;
+}
+
+/*join error*/
+
+div.alert {
+background: #fee url('redcross.png') no-repeat ;
+   color: #333;
+    margin: 0 0 15px;
+    padding: 6px 7px 6px 35px;
+    overflow: hidden;
+    min-height: 28px;
+    position: relative;
+    display: none;
+    visibility: hidden;
+}
+
+div.alert p{
+    font-size: 14px;
+    margin: 7px 21px 5px 7px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.error {
+    display: block;
+    font-size: 14px;
+    margin: 0px 0px 2px;
+    font-weight: bold;
+    color: rgb(153, 0, 0);
+    width: 200px;
+    display: none;
+    visibility: hidden;
+}
+
+a:visited, #footer a:visited {
+    color: #069;
+}
+a {
+    text-decoration: none;
+    color: #069;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #069;
+}
+

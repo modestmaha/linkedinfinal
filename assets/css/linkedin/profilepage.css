@@ -1,0 +1,193 @@
+.nav-v5-2-header {
+background: none;
+}
+.global-header {
+-webkit-box-shadow: 0 0 10px #333;
+-moz-box-shadow: 0 0 10px #333;
+box-shadow: 0 0 10px #333;
+font-size: 13px;
+line-height: 17px;
+color: #333;
+font-weight: normal;
+z-index: 10001;
+height: 42px;
+position: fixed;
+top: 0;
+width: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline;
+}
+div {
+display: block;
+}
+element.style {
+position: static;
+width: auto;
+}
+.responsive-nav {
+background-color: #1a1a1a;
+background-image: -webkit-linear-gradient(top, #1a1a1a 0%,#303030 100%);
+z-index: 1;
+}
+.responsive-nav .wrapper {
+position: relative;
+}
+.global-header .wrapper {
+margin-left: auto;
+margin-right: auto;
+width: 974px;
+position: relative;
+}
+#body, .primary, .wrapper {
+clear: both;
+}
+.global-header .wrapper:after {
+content: "\0020";
+display: block;
+height: 0;
+clear: both;
+overflow: hidden;
+visibility: hidden;
+}
+ ul {
+list-style: none;
+}
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+.responsive-nav .main-nav .nav-item:first-child {
+margin-left: 0px;
+margin-right: 20px;
+}
+
+.global-header .nav .nav-item {
+float: left;
+line-height: 13px;
+position: relative;
+}
+.global-header .responsive-nav .nav-link {
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 9px;
+padding-bottom: 7px;
+}
+.nav-v5-2-header .nav .nav-link {
+color: #D7D7D7;
+}
+.global-header .nav .nav-link {
+text-decoration: none;
+cursor: pointer;
+display: block;
+}
+.global-header .nav {
+float: left;
+}
+.responsive-nav .premium-nav {
+float: right;
+}
+.responsive-nav .premium-nav .nav-item {
+margin-left: 20px;
+margin-right: 20px;
+}
+.global-header .nav .nav-item {
+float: left;
+line-height: 13px;
+position: relative;
+}
+
+.responsive-nav .main-nav .sub-nav {
+left: -10px;
+width: 0;
+z-index: 1;
+}
+.nav-v5-2-header .nav .sub-nav {
+-webkit-box-shadow: 0 0 10px #333;
+-moz-box-shadow: 0 0 10px #333;
+box-shadow: 0 0 10px #333;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+opacity: 0;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+height: 0;
+line-height: 0;
+overflow: hidden;
+padding-top: 5px;
+padding-bottom: 5px;
+background: #2f2f2f;
+position: absolute;
+top: 100%;
+}
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+.global-header .nav a {
+color: #0077b5;
+text-decoration: none;
+}
+.responsive-nav .premium-nav .nav-item .sub-nav {
+left: -10px;
+width: 0;
+z-index: 1;
+}
+.nav-v5-2-header .nav .sub-nav>li>a {
+margin-left: 10px;
+margin-right: 10px;
+padding-left: 0px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: #fff;
+display: block;
+white-space: nowrap;
+background-color: transparent;
+}
+.global-header .nav a {
+color: #0077b5;
+text-decoration: none;
+}
+.global-header .nav .nav-item {
+float: left;
+line-height: 13px;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

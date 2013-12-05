@@ -1,0 +1,107 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+#join body {
+    font-size: 62.5%;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+	background-color: rgb(230, 230, 230); 
+}
+
+#body-area{
+background:rgb(230, 230, 230);
+padding-left :30px;
+border:1px solid black;
+background: -moz-linear-gradient(white, #C0C0C0);
+}
+.fwrapper{
+padding-left:50px;
+margin-left:150px;
+
+}
+body .fwrapper {
+    padding: 15px;
+}
+#content .introduction{
+font-size:13px;
+}
+.fwrapper .mainh1{
+font-size:30px;
+color:black;
+font-weight:bold;
+}
+.mainh1 strong{
+font-weight:bold;
+}
+
+.footer-noborder{
+width: 80.5em;
+min-width: 805px;
+    color: rgb(102, 102, 102);
+    clear: both;
+max-width: 95%;
+}
+/* 
+p#terms-of-use {
+    margin-bottom: 8px;
+} */
+
+p#copyright {
+    float: left;
+    border-right: 1px solid rgb(204, 204, 204);
+    padding: 0px 8px 0px 0px;
+    margin-right: 8px;
+}
+.footer-noborder p {
+    font-size: 110%;
+}
+.footer-noborder ul, .footer-noborder li, .footer-noborder p {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+body .fwrapper {
+    padding: 15px;
+	width:70%
+}
+.progress-container {
+    overflow: hidden;
+   /*  border-bottom: 1px solid rgb(204, 204, 204); */
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+}
+.summary{
+float:right;
+}
+.summary strong{
+font-weight:bold;
+border:2px solid black;
+}
+#ooperlao{
+top:auto;
+padding-top:50px;
+
+}
+#module-id2 .header{
+
+background:transparent;
+}
+#module-id2 .content{
+
+background:transparent;
+} 

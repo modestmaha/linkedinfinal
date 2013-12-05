@@ -1,0 +1,5 @@
+
+made changes in home screen ki erros msgs ki classes (and possible baki views ki b classes ki)
+changed url paths background-image:url('images/sprite_global_v8.png');
+html divs waghera;
+	
