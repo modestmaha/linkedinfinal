@@ -17,7 +17,7 @@ class Signup_model extends CI_Model{
 		if($query->num_rows == 0)
 		{
 			$this->db->select_max('users.user_id', 'us_id');
-			$query = $this->db->get('members');
+			$query = $this->db->get('users');
 			$row = $query->row();
 			$max_users = $row->us_id;
 			$data['user_id'] = $max_users + 1;
