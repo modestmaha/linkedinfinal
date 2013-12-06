@@ -48,7 +48,7 @@
 										</div>
 				 
 					<div class="register-container">									 
-						<form id="yui-gen2" class="standard-form sided extrainput" action="<?php echo base_url('index.php/linkedln/signup/validate2');?>" method="post">
+						<form id="yui-gen2" class="standard-form sided extrainput" action="<?php echo base_url('index.php/linkedin/signup/validate2');?>" method="post">
 							<ul>
 								<li class="name">
 								<div class="fieldgroup">
