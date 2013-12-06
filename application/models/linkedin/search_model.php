@@ -61,9 +61,9 @@ class Search_model extends CI_Model{
 			// $this->db->or_where('location', $data['keywords']);
 			// $this->db->or_where('country', $data['keywords']);
 		}
-		if($data['contactfname'] != '')
+		if($data['contactFName'] != '')
 		{
-			$this->db->where('firstname', $data['contactfname']);
+			$this->db->where('firstname', $data['contactFName']);
 		}
 		if($data['contactlname'] != '')
 		{
