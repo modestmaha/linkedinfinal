@@ -10,7 +10,7 @@
  
 <!-- <link rel="stylesheet" type="text/css" href="doit.css">  -->
  
- <link href="<?php echo base_url('/assets/css/LinkedIn/khudse.css')?>" rel="stylesheet" type="text/css">
+ <link href="<?php echo base_url('/assets/css/Linkedin/khudse.css')?>" rel="stylesheet" type="text/css">
  
  
 </head>
