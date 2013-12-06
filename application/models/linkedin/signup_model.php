@@ -168,6 +168,7 @@ public function insert_pic()
 		$this->db->update('users', $pic_data);
 	     // $this->db->insert('user', $pic_data);
 	     // return $this->db->insert_id();*/*/
+		$this->session->set_userdata($pic_data);
    }
 
    public function getUploadedPPic($pp_id=NULL){

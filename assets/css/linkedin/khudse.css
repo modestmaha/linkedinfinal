@@ -7,17 +7,20 @@ body {
     border: 0px none;
     outline: 0px none;
 	background-color: rgb(230, 230, 230);
+
+
 }
 .top-menu, .footer-noborder, .fwrapper {
     width: 80.5em;
     min-width: 805px;
 }
 .mainh1{
-font-size:30px;
-color:#00BFFF;
+font-size:25px;
+color:#39c;
 }
 .mainh1 strong{
 font-weight:bold;
+font-size:25px;
 }
 .logo-black{
 font-size:40px;
@@ -51,6 +54,10 @@ p#terms-of-use {
 #body-area{
 background:white;
 padding-left :30px;
+	width: 80.5em;
+min-width: 805px;
+width:50%;  
+ 
 }
 .fwrapper{
 padding-left:50px;
@@ -76,6 +83,7 @@ strong {
     display: inline;
     position: relative;
     z-index: 1;
+	padding-right:20px;
 }
 #motivation .profile-features {
     border: 1px solid rgb(186, 221, 238);
@@ -99,8 +107,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0px none;
     font-weight: inherit;
     font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
     vertical-align: baseline;
 }
 #motivation .profile-features li.first {
@@ -112,3 +120,49 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: url("/scds/common/u/img/sprite/sprite_registration_v2.png") no-repeat scroll 0px -297px rgb(255, 255, 255);
     padding-left: 15px;
 }
+#join{
+padding-left:150px;
+}
+#country-coldRegistrationForm {
+width:310px;
+}
+#postalcode-coldRegistrationForm{
+width:310px;
+}
+#jobtitle-coldRegistrationForm{
+width:310px;
+}
+#company-coldRegistrationForm{
+width:310px;
+}
+
+button{
+margin-top:10px;
+margin-left:200px;
+}
+#btn-submit{
+
+border-color: rgb(4, 90, 139);
+color: rgb(255, 255, 255) ;
+background-color:#305984;
+background: -moz-linear-gradient(center top , rgb(115, 174, 201) 0px, rgb(115, 174, 201) 1px, rgb(51, 138, 176) 1px, rgb(5, 113, 166) 100%) repeat scroll 0% 0% transparent;
+}
+.fieldgroup{
+padding-top:10px;
+text-align: right;
+
+}
+#motivation img{
+height:150px;
+width:250px;
+margin-left:20px;
+}
+.country-select{
+text-align: right;
+}
+.start-year-entry{
+ padding-left:120px; 
+
+}
+
+

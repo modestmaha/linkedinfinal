@@ -3,10 +3,12 @@
 
 
 <title>Upload Profile Picture | LinkedIn</title>
- <base href="<?php echo base_url(); ?>" />
-<link rel="shortcut icon" href="images/favicon.ico" />
+
+<base href="<?php echo base_url(); ?>" />
+<link rel="shortcut icon" href="<?php echo base_url();?>assets/images/favicon.ico" />
 
 
+ 
  <link href="<?php echo base_url();?>assets/css/linkedin/uploadpic2.css" rel="stylesheet">
  <link href="<?php echo base_url();?>assets/css/linkedin/chunk.css" rel="stylesheet">
   <!--
@@ -113,7 +115,7 @@
     </div>
   </div> -->
   <div class="fwrapper" id="ooperlao">
-    <div id="body-area" class="lessmargin">
+    <div id="body-area">
       <div class="main-body-white signup">
         <div class="progress-container">
           <h1 class="mainh1">Upload your profile picture</h1>
@@ -175,7 +177,7 @@
             </div>
           </div>
             <p>
-              <button class="btn-icon facebook" onclick="
+              <button class="btn-icon facebook btn-primary" onclick="
     window.open(
       'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
       'facebook-share-dialog', 
