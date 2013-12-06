@@ -88,7 +88,8 @@ class Signup_model extends CI_Model{
 			{
 				
 				$temp_array=array(
-					'company_name'=> $this->security->xss_clean($this->input->post('company'))
+					'company_name'=> $this->security->xss_clean($this->input->post('company')),
+					'industry' => "default"
 					);
 				$this->db->insert('company',$temp_array);
 				$this->db->where('company_name', $temp_array['company_name']);
