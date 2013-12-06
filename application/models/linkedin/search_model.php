@@ -65,9 +65,9 @@ class Search_model extends CI_Model{
 		{
 			$this->db->where('firstname', $data['contactFName']);
 		}
-		if($data['contactLName'] != '')
+		if($data['contactlname'] != '')
 		{
-			$this->db->where('lastname', $data['contactLName']);			
+			$this->db->where('lastname', $data['contactlname']);			
 		}
 		if($data['job_title'] != '')
 		{
@@ -145,9 +145,9 @@ class Search_model extends CI_Model{
 		{
 			$this->db->where('firstname', $data['contactFName']);
 		}
-		if($data['contactLName'] != '')
+		if($data['contactlname'] != '')
 		{
-			$this->db->where('lastname', $data['contactLName']);			
+			$this->db->where('lastname', $data['contactlname']);			
 		}
 		if($data['job_title'] != '')
 		{
@@ -225,9 +225,9 @@ class Search_model extends CI_Model{
 		// {
 		// 	$this->db->where('firstname', $data['contactFName']);
 		// }
-		// if($data['contactLName'] != '')
+		// if($data['contactlname'] != '')
 		// {
-		// 	$this->db->where('lastname', $data['contactLName']);			
+		// 	$this->db->where('lastname', $data['contactlname']);			
 		// }
 		// if($data['job_title'] != '')
 		// {

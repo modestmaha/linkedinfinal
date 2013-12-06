@@ -162,11 +162,11 @@
 										</li>
 										<li class="firstName">
 											<label for="advs-firstName">First Name</label>
-											<input id="advs-firstName" type="text" name="contactFName" />
+											<input id="advs-firstName" type="text" name="contactfname" />
 										</li>
 										<li class="lastName">
 											<label for="advs-lastName">Last Name</label>
-											<input id="advs-lastName" type="text" name="contactLName" />
+											<input id="advs-lastName" type="text" name="contactlname" />
 										</li>
 										<li class="title">
 											<label for="advs-title">Title</label>
