@@ -23,11 +23,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-color: rgb(230, 230, 230); 
 }
 
+.skip
+{
+    margin:5px;
+}
+
 #body-area{
-padding :30px;
-margin: 70px; 	
-border:1px solid rgb(231, 232, 248);;
+background:rgb(230, 230, 230);
+padding:30px;
+margin:70px;
+border:1px solid black;
 background: -moz-linear-gradient(white, #C0C0C0);
+background: linear-gradient(white,#C0C0C0);
 }
 .fwrapper{
 padding-left:50px;
@@ -38,11 +45,11 @@ body .fwrapper {
     padding: 15px;
 }
 #content .introduction{
-font-size:12px;
+font-size:13px;
 }
 .fwrapper .mainh1{
-font-size:20px;
-color:rgb(19, 120, 248);
+font-size:30px;
+color:black;
 font-weight:bold;
 }
 .mainh1 strong{
@@ -74,15 +81,6 @@ p#copyright {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-}
-
-.standard-form ul {
-	margin:10px;
-}
-
-.skip
-{
-	padding:5px;
 }
 body .fwrapper {
     padding: 15px;

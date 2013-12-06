@@ -92,7 +92,7 @@
 				<li class="nav-item"><a href="" class="nav-link">Home</a></li>
 				<li class="nav-item"><a href="" class="nav-link">Profile</a>
 					<ul id="profile-sub-nav" class="sub-nav">
-						<li><a href="">Edit Profile</a></li>
+						<li><a href="<?php echo base_url();?>index.php/linkedin/signup/upload_new_picture">Upload Profile Picture</a></li>
 						<li><a href="">Who viewed your Profile</a></li>
 					</ul>
 				</li>

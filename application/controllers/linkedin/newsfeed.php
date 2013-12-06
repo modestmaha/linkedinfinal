@@ -35,8 +35,8 @@ class Newsfeed extends CI_Controller{
 
 		if($this->session->userdata('email'))
 		{
-			$data['post_content'] = $this->input->post("post_content");
-			$data['privacy'] = $this->input->post("privacy");
+			$data['post_content'] = $this->security->xss_clean($this->input->post("post_content"));
+			$data['privacy'] = $this->security->xss_clean($this->input->post("privacy"));
 			//$data['upload_pic_id'] = $this->input->post("upload_pic_id");
 			
 			if(1==2)//($data['upload_pic_id'])
@@ -70,8 +70,8 @@ class Newsfeed extends CI_Controller{
 		$this->load->model("linkedin/newsfeed_model");
 		if($this->session->userdata('email'))
 		{
-			$data['post_id'] = $this->input->post("post_id");
-			$data['comment_content'] = $this->input->post("comment_content");
+			$data['post_id'] = $this->security->xss_clean($this->input->post("post_id"));
+			$data['comment_content'] = $this->security->xss_clean($this->input->post("comment_content"));
 			$this->newsfeed_model->add_comment($data);
 			$this->index();
 		}
@@ -182,8 +182,8 @@ class Newsfeed extends CI_Controller{
 
 		if($this->session->userdata('email'))
 		{
-			$data['post_content'] = $this->input->post("post_content");
-			$data['privacy'] = $this->input->post("privacy");
+			$data['post_content'] = $this->security->xss_clean($this->input->post("post_content"));
+			$data['privacy'] = $this->security->xss_clean($this->input->post("privacy"));
 			if(preg_match("/(https|http|ftp|ftps)\:\/\/[www.]?[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)", $data['post_content'], $link))
 			{
 				$data['link'] = $link[0];

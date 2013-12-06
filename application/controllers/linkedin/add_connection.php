@@ -18,11 +18,11 @@ class Add_connection extends CI_Controller{
 		{
 			$data['heading'] = "Invite to Connect | LinkedIn";
 			$data['css_url'] = "linkedin/newestadvanced";
-			$data['contact_fname'] = $this->input->post('contact_fname');
-			$data['contact_lname'] = $this->input->post('contact_lname');
-			$data['contact_id'] = $this->input->post('contact_id');
-			$data['firstname'] = $this->session->userdata('firstname');
-			$data['lastname'] = $this->session->userdata('lastname');
+			$data['contact_fname'] = $this->security->xss_clean($this->input->post('contact_fname'));
+			$data['contact_lname'] = $this->security->xss_clean($this->input->post('contact_lname'));
+			$data['contact_id'] = $this->security->xss_clean($this->input->post('contact_id'));
+			$data['firstname'] = $this->security->xss_clean($this->session->userdata('firstname'));
+			$data['lastname'] = $this->security->xss_clean($this->session->userdata('lastname'));
 			$data['css_url'] = "linkedin/newestadvanced";
 			$this->load->view('linkedintoo/sprint3 step2 - connect', $data);
 		}
@@ -37,12 +37,12 @@ class Add_connection extends CI_Controller{
 		$this->load->helper('url');
 		if($this->session->userdata('email'))
 		{
-			$contact_id = $this->input->post('contact_id');
+			$contact_id = $this->security->xss_clean($this->input->post('contact_id'));
 			$load_display = true;
 
 			$this->load->model('linkedin/add_connection_model');
-			$contact_fname = $this->input->post('contact_fname');
-			$contact_lname = $this->input->post('contact_lname');
+			$contact_fname = $this->security->xss_clean($this->input->post('contact_fname'));
+			$contact_lname = $this->security->xss_clean($this->input->post('contact_lname'));
 			if($this->add_connection_model->check_connection($contact_id))
 			{
 				$data['display_message'] = "Cannot send invitation. The connection ".$contact_fname." ".$contact_lname." is already a connection.";
@@ -105,12 +105,12 @@ class Add_connection extends CI_Controller{
 		{
 			if($contact_id==NULL)
 			{
-				$contact_id = $this->input->post('contact_id');
+				$contact_id = $this->security->xss_clean($this->input->post('contact_id'));
 			}
 			$this->load->model('linkedin/add_connection_model');
 
-			$contact_fname = $this->input->post('contact_fname');
-			$contact_lname = $this->input->post('contact_lname');
+			$contact_fname = $this->security->xss_clean($this->input->post('contact_fname'));
+			$contact_lname = $this->security->xss_clean($this->input->post('contact_lname'));
 
 			if ($this->add_connection_model->accept_request($contact_id)) 
 			{
@@ -136,7 +136,7 @@ class Add_connection extends CI_Controller{
 		$this->load->helper('url');
 		if($this->session->userdata('email'))
 		{
-			$contact_id = $this->input->post('contact_id');
+			$contact_id = $this->security->xss_clean($this->input->post('contact_id'));
 			$this->load->model('linkedin/add_connection_model');
 			
 			if ($this->add_connection_model->ignore_request($contact_id)) 

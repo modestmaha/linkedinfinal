@@ -57,12 +57,12 @@ class Search extends CI_Controller{
 
 		if($this->session->userdata('email'))
 		{
-			$data['keywords'] = $this->input->post('keywords');
-			$data['contactFName'] = $this->input->post('contactFName');
-			$data['contactLName'] = $this->input->post('contactLName');
-			$data['job_title'] = $this->input->post('job_title');
-			$data['company'] = $this->input->post('company');
-			$data['school'] = $this->input->post('school');
+			$data['keywords'] = $this->security->xss_clean($this->input->post('keywords'));
+			$data['contactFName'] = $this->security->xss_clean($this->input->post('contactFName'));
+			$data['contactLName'] = $this->security->xss_clean($this->input->post('contactLName'));
+			$data['job_title'] = $this->security->xss_clean($this->input->post('job_title'));
+			$data['company'] = $this->security->xss_clean($this->input->post('company'));
+			$data['school'] = $this->security->xss_clean($this->input->post('school'));
 			// $data['location'] = $this->input->post('location');
 			// $data['country'] = $this->input->post('country');
 
@@ -92,7 +92,7 @@ class Search extends CI_Controller{
 
 		if($this->session->userdata('email'))
 		{
-			$data['keywords'] = $this->input->post('keywords');
+			$data['keywords'] = $this->security->xss_clean($this->input->post('keywords'));
 			
 			$this->load->model('linkedin/search_model');
 			// Validate the user can signup

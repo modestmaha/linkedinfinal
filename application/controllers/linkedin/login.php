@@ -58,7 +58,7 @@ class Login extends CI_Controller{
 
 	public function validate(){
 		
-		$email = $this->input->post('login_textbox');	
+		$email = $this->security->xss_clean($this->input->post('login_textbox'));	
 		if (strlen($email)<3)
 		{
 			$email_error_msg = "The text you provide is too short (the minimum length is 3 characters, your text contains";
@@ -70,7 +70,7 @@ class Login extends CI_Controller{
 		else
 			$email_error_msg = NULL;
 
-		$password = $this->input->post('password_textbox');
+		$password = $this->security->xss_clean($this->input->post('password_textbox'));
 		if(strlen($password)<1)
 			$password_error_msg = "Please enter a password.";
 		else if (strlen($password)<3)

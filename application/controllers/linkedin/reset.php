@@ -28,7 +28,7 @@ class Reset extends CI_Controller{
 			$this->load->view('linkedin/nav1');
 			$data['main_error_msg'] = $main_error_msg;
 			$data['email_error_msg'] = $email_error_msg;
-			$data['email'] = $this->input->post('email');
+			$data['email'] = $this->security->xss_clean($this->input->post('email');
 			$this->load->view('linkedin/screen6body', $data);
 			$this->load->view('linkedin/footer3');
 		}
@@ -37,7 +37,7 @@ class Reset extends CI_Controller{
 	
 	public function pass(){
 		
-		$email = $this->input->post('login_textbox');	
+		$email = $this->security->xss_clean($this->input->post('login_textbox');	
 		if (strlen($email)<3)
 		{
 			$email_error_msg = "The text you provide is too short (the minimum length is 3 characters, your text contains ";

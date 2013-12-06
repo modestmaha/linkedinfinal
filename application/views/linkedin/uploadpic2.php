@@ -64,17 +64,17 @@
 					</fieldset>
 					<div class="advanced-search-outer">
 						<div class="advanced-search-inner">
-							<a id="advanced-search" class="advanced-search" href="">Advanced </a>
+							<a id="advanced-search" class="advanced-search" href="<?php echo base_url();?>index.php/linkedin/search">Advanced </a>
 						</div>
 					</div>
 				</form>
 			</div>
 			<div class="header-section last-child">
 				<ul id="control_gen_5" class="nav utilities" role="navigation">
-					<li class="nav-item activity-tab"><a class="activity-toggle inbox-alert" href="<?php echo base_url();?>index.php/linkedin/add_connection/load_requests">Inbox</a></li>
+					<li class="nav-item activity-tab"><a class="activity-toggle inbox-alert" href="">Inbox</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle notifications-alert" href="">Notifications</a></li>
 					<li class="nav-item activity-tab"><a class="activity-toggle add-connections-btn" href="">Add Connections</a></li>
-					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="images/profilepic.jpg" width="20" height="20" /></a></li>
+					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" width="20" height="20" /></a></li>
 				</ul>
 			</div>
 		</div>
@@ -85,15 +85,15 @@
 				<li class="nav-item"><a href="" class="nav-link">Home</a></li>
 				<li class="nav-item"><a href="" class="nav-link">Profile</a>
 					<ul id="profile-sub-nav" class="sub-nav">
-						<li><a href="">Edit Profile</a></li>
+						<li><a href="<?php echo base_url();?>index.php/linkedin/signup/upload_new_picture">Upload Profile Picture</a></li>
 						<li><a href="">Who viewed your Profile</a></li>
 					</ul>
 				</li>
 				<li class="nav-item"><a href="" class="nav-link">Network</a>
 					<ul id="profile-sub-nav" class="sub-nav">
-						<li><a href="">Contacts</a></li>
-						<li><a href="">Add Connections</a></li>
-						<li><a href="">Find Alumni</a></li>
+						<li><a href="<?php echo base_url();?>index.php/linkedin/search/basic_search_connections">Contacts</a></li>
+						<li><a href="<?php echo base_url();?>index.php/linkedin/add_connection/load_requests">Load Requests</a></li>
+						<li><a href="<?php echo base_url();?>index.php/linkedin/search/find_alumni">Find Alumni</a></li>
 					</ul>
 				</li>
 				<li class="nav-item"><a href="" class="nav-link">Jobs</a></li>
@@ -105,6 +105,8 @@
 						<li><a href="">Education</a></li>
 					</ul>
 				</li>
+				<li class="nav-item"><a href="<?php echo base_url();?>index.php/linkedin/login/do_logout" class="nav-link">Logout</a></li>
+				
 			</ul>
 		</div>
 	</div>
