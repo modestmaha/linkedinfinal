@@ -144,7 +144,9 @@
 					</div>
 					<div id="results-container">
 						<ol id="results" class="search-results">
-							<?php foreach($results as $iter){?>
+							<?php if ($results != NULL)
+
+							foreach($results as $iter){?>
 							<form action="<?php echo base_url();?>index.php/linkedin/add_connection/send_connection_request" method="post">
 							<li class="mod result people">
 								<a href=""><img class="entity-img" width="60" height="60" src="<?php echo base_url(); ?>uploads/<?php echo $iter->profilepic.'.jpg' ?>" /></a>

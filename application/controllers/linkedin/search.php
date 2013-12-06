@@ -75,14 +75,10 @@ class Search extends CI_Controller{
 			$results = $this->search_model->advanced_search($data);
 
 			//$this->index($data, NULL, $results);
-			if($results!=NULL)
-			{	
-				$data['heading'] = "Search | LinkedIn";
-				$data['css_url'] = "linkedin/newestadvanced";
-				$data['results'] = $results;
-				$this->load->view('linkedintoo/advancedsearchresults',$data);
-
-			}
+			$data['heading'] = "Search | LinkedIn";
+			$data['css_url'] = "linkedin/newestadvanced";
+			$data['results'] = $results;
+			$this->load->view('linkedintoo/advancedsearchresults',$data);
 		}
 		else
 		{
