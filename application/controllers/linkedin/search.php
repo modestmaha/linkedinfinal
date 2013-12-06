@@ -58,8 +58,8 @@ class Search extends CI_Controller{
 		if($this->session->userdata('email'))
 		{
 			$data['keywords'] = $this->security->xss_clean($this->input->post('keywords'));
-			$data['contactfname'] = $this->security->xss_clean($this->input->post('contactfname'));
-			$data['contactlname'] = $this->security->xss_clean($this->input->post('contactfname'));
+			$data['contactFName'] = $this->security->xss_clean($this->input->post('contactFName'));
+			$data['contactLName'] = $this->security->xss_clean($this->input->post('contactLName'));
 			$data['job_title'] = $this->security->xss_clean($this->input->post('job_title'));
 			$data['company'] = $this->security->xss_clean($this->input->post('company'));
 			$data['school'] = $this->security->xss_clean($this->input->post('school'));
@@ -134,4 +134,3 @@ class Search extends CI_Controller{
 		$this->load->view('linkedintoo/sprint3 step1 - find alumni', $data);
 	}
 };
-
