@@ -78,7 +78,7 @@
 			</div>
 			<div class="header-section last-child">
 				<ul id="control_gen_5" class="nav utilities" role="navigation">
-					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilePic').'.jpg' ?>" width="20" height="20" /></a></li>
+					<li class="nav-item account-settings-tab"><a class="account-toggle" href=""><img src="<?php echo base_url(); ?>uploads/<?php echo $this->session->userdata('profilepic').'.jpg' ?>" width="20" height="20" /></a></li>
 									
 				</ul>
 			</div>

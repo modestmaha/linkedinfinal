@@ -77,8 +77,7 @@ class Signup_model extends CI_Model{
 			'current_position'=>$temp,
 			'dob' =>date("Y-m-d"),
 			'language' =>'English',
-			'years_of_experience'=> 0,
-			'joining_date'=>date("Y-m-d")
+			'years_of_experience'=> 0
 			);
 
 			$this->db->insert('profile', $insert_array);

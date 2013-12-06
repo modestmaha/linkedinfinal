@@ -155,23 +155,6 @@
 									<dl class="demographic">
 										
 									</dl>
-									<div class="social-wrapper collapsed">
-										
-									</div>
-									<div class="srp-actions blue-button">
-											<input class="submit-advs" type="submit" value="Connect"></input>
-										<div class="secondary-actions-trigger">
-											<a class="trigger" role="button" href="">
-												<span>Secondary Actions</span>
-											</a>
-											<ul class="menu">
-												<li><a href="">View Connections</a></li>
-												<li><a href="">Share</a></li>
-												<li><a href="">Find References</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
 							</li>
 							<input type="hidden" name="contact_id" value="<?php echo $iter->us_id ?>" />
 							<input type="hidden" name="contact_fname" value="<?php echo $iter->firstname ?>" />
