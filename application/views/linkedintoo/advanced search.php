@@ -4,7 +4,6 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title><?php echo $heading; ?></title>
 <?php echo link_css($css_url); ?>
-<link rel="shortcut icon" href="<?php echo base_url();?>/linkedIn/inmages" />
 <?php echo link_js('jquery'); ?>
 <script type="text/javascript">
 
